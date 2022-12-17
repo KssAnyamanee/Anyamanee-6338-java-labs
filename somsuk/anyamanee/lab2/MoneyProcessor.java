@@ -3,10 +3,16 @@ package somsuk.anyamanee.lab2;
 public class MoneyProcessor {
     public static void main(String[] args) {
         if (args.length==4){
-            String a = args[0];
-            String b = args[1];
-            String c = args[2];
-            String d = args[3];
+            /*
+             * รับค่าinputจำนวนเเบงค์
+             */
+            String a = args[0];//จำนวนเเบงค์1000
+            String b = args[1];//จำนวนเเบงค์500
+            String c = args[2];//จำนวนเเบงค์100
+            String d = args[3];//จำนวนเเบงค์20
+            /*
+             * เปลี่ยนประเภทของinputที่รับเข้ามาจากString->Double
+             */
             double thousand = Double.parseDouble(a);
             double five_hundred = Double.parseDouble(b);
             double hundred = Double.parseDouble(c);
@@ -15,7 +21,7 @@ public class MoneyProcessor {
 
 
 
-            System.out.println("Total Money is " +total);
+            System.out.println("Total Money is " +total);//ปริ้นผลรวมออกมา
           
             
         }else{

@@ -2,6 +2,9 @@ package somsuk.anyamanee.lab2;
 
 public class Datatypes {
     public static void main(String[] args) {
+        /*
+         * ตั้งชื่อตัวแปรเเละบอกประเภทของตัวแปร
+         */
         String fullname= "Anyamanee Somsuk";
         String id = "6530406338";
         char fullname1stlatter = 'A';
