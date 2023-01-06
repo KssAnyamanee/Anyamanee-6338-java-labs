@@ -2,6 +2,14 @@ package somsuk.anyamanee.lab3;
 import java.util.Scanner;
 
 public class SicBoMethod {
+     /*
+     * โปรเเกรมนี้เป็นโปรเเกรมที่ให้userสามารถเล้นเกมไฮโล(sicbo)ได้
+     * 
+     * Author: Anyamanee Somsuk
+     * ID: 653040633-8
+     * sec: 1
+     * Date: 27/12/2022
+     */
      static int choice;
      static Scanner sc = new Scanner(System.in);
     

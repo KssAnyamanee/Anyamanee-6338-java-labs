@@ -1,9 +1,16 @@
 package somsuk.anyamanee.lab3;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 public class BasicStatMethod {
+        /*
+         * โปรเเกรมนี้เป็นโปรเเกรมคำนวณค่าสถืตืต่างๆ โดยจะคำนวณ sorted number,minimum,maximum,average,standard diviation
+         * Author: Anyamanee Somsuk
+         * ID: 653040633-8
+         * sec: 1
+         * Date: 27/12/2022
+         */
     public static void main(String[] args) {
+        //เรียกใช้method
         String input = getInput();
         CalculateStat(input);
     }
@@ -37,7 +44,7 @@ public class BasicStatMethod {
             for (int i =0 ; i<n2; i++){
                 System.out.print(n3[i]+ " ");
                 }
-            int max=0; int min=0;
+            
             System.out.println("\nMinimum: "+ String.format("%.2f", n3[0]));
             System.out.println("Maximum: "+ String.format("%.2f" , n3[n2-1]));
             System.out.println("Average: "+String.format("%.2f" , (sum/n2)));
