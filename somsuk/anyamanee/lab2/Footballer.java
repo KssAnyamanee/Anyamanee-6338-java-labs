@@ -15,7 +15,7 @@ public class Footballer {
         }
 
         else {
-            System.out.println("Footballer <footballer name> <nationality> <club name>");
+            System.out.println("Usage: Footballer <footballer name> <nationality> <club name>");
         }
         
 
