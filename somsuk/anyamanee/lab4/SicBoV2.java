@@ -1,3 +1,13 @@
+    /*
+     * this program is the program that user can play sicbo an play again if they want to 
+     * by press "a" or "A" and press another key to exitl
+     * 
+     * Author: Anyamanee Somsuk
+     * ID: 653040633-8
+     * sec: 1
+     * Date: 27/12/2022
+     */
+
 package somsuk.anyamanee.lab4;
 import java.util.Scanner;
 
