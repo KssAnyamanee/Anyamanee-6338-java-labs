@@ -1,15 +1,27 @@
+    /*
+     * this program is the program that can calculate the Area of rectangle and triangle
+     * 
+     * Author: Anyamanee Somsuk
+     * ID: 653040633-8
+     * sec: 1
+     * Date: 20/01/2023
+     */
 package somsuk.anyamanee.lab5;
 
 enum Polygontype {RECTANGLE , TRIANGLE};   
 
-class  Polygon{
+class  Polygon{ 
     double width;
     double height;
     Polygontype type;
     static int numPolygons;
     static double sumPolygonsArea;
 
-    public double getArea(){
+    /*this method will calculate the area if it's rectangle the program will
+    * will return width * hight
+    * if it's triangle the program will return (width * height)/2
+    */
+    public double getArea(){ 
         if(type == Polygontype.RECTANGLE){
             return width * height;
         }else{
@@ -38,7 +50,7 @@ public class TestPolygons {
         polygon2.type = Polygontype.TRIANGLE;
         Polygon.setNumPolygons(1);
         Polygon.setSumPolygonsArea(polygon2.getArea());
-        System.out.println("The number of polygons is " + Polygon.numPolygons + " or " + polygon1.numPolygons + " or " + polygon2.numPolygons);
+        System.out.println("The number of polygons is " + Polygon.numPolygons + " or " + Polygon.numPolygons + " or " + Polygon.numPolygons);
         System.out.println("The width of polygon1 is " + polygon1.width + " the width of polygon2 is " + polygon2.width);
         System.out.println("THe sum of polygons area is " + Polygon.sumPolygonsArea);
         
