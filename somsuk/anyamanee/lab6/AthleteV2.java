@@ -14,7 +14,7 @@ public class AthleteV2 extends Athlete {
 
 class BadmintonPlayerV2 extends AthleteV2 {
 
-    public BadmintonPlayerV2(String name, Double weight, Double height, Gender gender, String nationality,
+    public BadmintonPlayerV2(String name, double weight, Double height, Gender gender, String nationality,
             String birthdate) {
         super(name, weight, height, gender, nationality, birthdate);
 

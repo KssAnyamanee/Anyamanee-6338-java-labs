@@ -1,3 +1,18 @@
+    /*
+     * this program will tell you about the athlete's information such as name,weight,height,gender,nationality,birthdate and also tell 
+     * how many kilometers the athlete has run and other practice program 
+     * 
+     * this program extends lab5 and use code from class AthleteV2 and subclasses of AthleteV2
+     * which are FootballerV2,BoxerV2,BadmintonV2
+     * 
+     * Author: Anyamanee Somsuk
+     * ID: 653040633-8
+     * sec: 1
+     * Date: 03/02/2023
+     */
+
+
+
 package somsuk.anyamanee.lab6;
 
 import java.util.ArrayList;
