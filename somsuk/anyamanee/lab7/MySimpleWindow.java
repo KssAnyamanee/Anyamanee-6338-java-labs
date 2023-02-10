@@ -1,6 +1,16 @@
+    /*
+     * this is the program that will show you simple window that has 3 buttons in there which is cancel button, reset button and submit button
+     * 
+     * Author: Anyamanee Somsuk
+     * ID: 653040633-8
+     * sec: 1
+     * Date: 10/02/2023
+     */
+
+
 package somsuk.anyamanee.lab7;
 
-
+import java.awt.*;
 import javax.swing.*;
 
 public class MySimpleWindow extends JFrame {
@@ -18,7 +28,7 @@ public class MySimpleWindow extends JFrame {
         resetButton = new JButton("Reset");
         submiButton = new JButton("Submit");
         buttonPanel = new JPanel();
-        mainPanel = new JPanel();
+        mainPanel = new JPanel(new BorderLayout());
         buttonPanel.add(cancelButton);
         buttonPanel.add(resetButton);
         buttonPanel.add(submiButton);
@@ -28,6 +38,7 @@ public class MySimpleWindow extends JFrame {
 
     public void setFrameFeatures(){
         this.setVisible(true);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
         this.setLocationRelativeTo(null);
     }
